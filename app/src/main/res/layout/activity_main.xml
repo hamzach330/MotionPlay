@@ -86,38 +86,41 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:contentDescription="@string/teslacarimage"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/bottomContainer"
         app:layout_constraintEnd_toEndOf="parent"
-        android:scaleType="fitCenter"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/ic_tesla_foreground" />
 
-    <Button
+    <FrameLayout
         android:id="@+id/button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/rounded_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/arrow_down_solid"
         android:elevation="30dp"
         android:text="Down"
         android:textSize="5sp"
         android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@+id/bottomContainer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bottomContainer" />
 
-    <Button
+    <FrameLayout
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/rounded_button"
-        android:text="Button"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/bottomContainer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bottomContainer" />
+        app:layout_constraintTop_toTopOf="@+id/bottomContainer">
+
+        <include layout="@layout/layout_progress" />
+
+    </FrameLayout>
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
