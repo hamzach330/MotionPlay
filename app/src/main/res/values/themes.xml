@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.JucrMockTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
@@ -12,5 +12,95 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="fontFamily">@font/montserrat</item>
     </style>
+
+
+    <style name="TextStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Type styles -->
+        <item name="textAppearanceHeadline1">@style/TextStyle.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextStyle.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextStyle.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextStyle.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextStyle.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextStyle.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextStyle.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextStyle.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextStyle.Body1</item>
+        <item name="textAppearanceBody2">@style/TextStyle.Body2</item>
+        <item name="textAppearanceCaption">@style/TextStyle.Caption</item>
+        <item name="textAppearanceButton">@style/TextStyle.Button</item>
+        <item name="textAppearanceOverline">@style/TextStyle.Overline</item>
+    </style>>
+
+
+    <style name="TextStyle.Headline1">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Headline1</item>
+    </style>
+
+    <style name="TextStyle.Headline2">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Headline2</item>
+    </style>
+
+    <style name="TextStyle.Headline3">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Headline3</item>
+    </style>
+
+    <style name="TextStyle.Headline4">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Headline4</item>
+    </style>
+
+    <style name="TextStyle.Headline5">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Headline5</item>
+    </style>
+
+    <style name="TextStyle.Headline6">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Headline6</item>
+    </style>
+
+    <style name="TextStyle.Subtitle1">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Subtitle1</item>
+    </style>
+
+    <style name="TextStyle.Subtitle2">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Subtitle2</item>
+    </style>
+
+    <style name="TextStyle.Body1">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Body1</item>
+    </style>
+
+    <style name="TextStyle.Body2">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Body2</item>
+    </style>
+
+    <style name="TextStyle.Button">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Button</item>
+    </style>
+
+    <style name="TextStyle.Caption">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Caption</item>
+    </style>
+
+    <style name="TextStyle.Overline">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/Overline</item>
+    </style>
+
+
+
 </resources>
