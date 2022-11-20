@@ -7,8 +7,8 @@ import com.bumptech.glide.Glide
 import com.hamza.jucrmocktest.databinding.ItemStatisticsBinding
 import com.hamza.jucrmocktest.models.Statistics
 
-class StatisticsRecyclerAdapter (private val statisticsList: ArrayList<Statistics>)
-    : RecyclerView.Adapter<StatisticsRecyclerAdapter.StatisticsViewHolder>() {
+class StatisticsRecyclerAdapter(private val statisticsList: ArrayList<Statistics>) :
+    RecyclerView.Adapter<StatisticsRecyclerAdapter.StatisticsViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StatisticsViewHolder {
         val binding = ItemStatisticsBinding
@@ -19,7 +19,7 @@ class StatisticsRecyclerAdapter (private val statisticsList: ArrayList<Statistic
     override fun getItemCount() = statisticsList.size
 
     override fun onBindViewHolder(holder: StatisticsViewHolder, position: Int) {
-        with(holder){
+        with(holder) {
 
             with(statisticsList[position]) {
 
@@ -36,7 +36,7 @@ class StatisticsRecyclerAdapter (private val statisticsList: ArrayList<Statistic
         }
     }
 
-    inner class StatisticsViewHolder(val binding: ItemStatisticsBinding)
-        :RecyclerView.ViewHolder(binding.root)
+    inner class StatisticsViewHolder(val binding: ItemStatisticsBinding) :
+        RecyclerView.ViewHolder(binding.root)
 
 }

@@ -1,7 +1,6 @@
 package com.hamza.jucrmocktest
 
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.hamza.jucrmocktest.databinding.ActivityMainBinding
@@ -18,20 +17,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
 
-
         val statisticsRecyclerAdapter = StatisticsRecyclerAdapter(DataSource.getStatisticsData())
 
         binding.recyclerViewStatistics.apply {
             adapter = statisticsRecyclerAdapter
         }
 
-        val superChargersRecyclerAdapter = SuperChargersRecyclerAdapter(DataSource.getSuperChargersData())
+        val superChargersRecyclerAdapter =
+            SuperChargersRecyclerAdapter(DataSource.getSuperChargersData())
 
         binding.recyclerViewSuperChargers.apply {
             adapter = superChargersRecyclerAdapter
             layoutManager = LinearLayoutManager(this@MainActivity)
         }
-
 
 
     }

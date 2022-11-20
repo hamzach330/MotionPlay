@@ -3,12 +3,11 @@ package com.hamza.jucrmocktest
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.hamza.jucrmocktest.databinding.ItemSuperchargersBinding
 import com.hamza.jucrmocktest.models.SuperChargers
 
-class SuperChargersRecyclerAdapter (private val superChargersList: ArrayList<SuperChargers>)
-    : RecyclerView.Adapter<SuperChargersRecyclerAdapter.SuperchargersViewHolder>() {
+class SuperChargersRecyclerAdapter(private val superChargersList: ArrayList<SuperChargers>) :
+    RecyclerView.Adapter<SuperChargersRecyclerAdapter.SuperchargersViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SuperchargersViewHolder {
         val binding = ItemSuperchargersBinding
@@ -19,7 +18,7 @@ class SuperChargersRecyclerAdapter (private val superChargersList: ArrayList<Sup
     override fun getItemCount() = superChargersList.size
 
     override fun onBindViewHolder(holder: SuperchargersViewHolder, position: Int) {
-        with(holder){
+        with(holder) {
 
             with(superChargersList[position]) {
 
@@ -30,7 +29,7 @@ class SuperChargersRecyclerAdapter (private val superChargersList: ArrayList<Sup
         }
     }
 
-    inner class SuperchargersViewHolder(val binding: ItemSuperchargersBinding)
-        :RecyclerView.ViewHolder(binding.root)
+    inner class SuperchargersViewHolder(val binding: ItemSuperchargersBinding) :
+        RecyclerView.ViewHolder(binding.root)
 
 }
