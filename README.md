@@ -1,5 +1,4 @@
 # Android Project MotionLayout
-
 This project is a sample application that demonstrates how to use the [MotionLayout](https://developer.android.com/reference/android/support/constraint/motion/MotionLayout) widget to create animations, transitions, and other interactive behaviors in an Android application.
 
 ## Working with MotionLayout
