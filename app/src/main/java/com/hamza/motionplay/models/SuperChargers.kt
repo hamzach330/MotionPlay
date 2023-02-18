@@ -1,4 +1,4 @@
-package com.hamza.jucrmocktest.models
+package com.hamza.motionplay.models
 
 data class SuperChargers(
     var chargerName: String,

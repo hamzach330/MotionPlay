@@ -1,9 +1,9 @@
-package com.hamza.jucrmocktest
+package com.hamza.motionplay
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.hamza.jucrmocktest.databinding.ActivityMainBinding
+import com.hamza.motionplay.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {

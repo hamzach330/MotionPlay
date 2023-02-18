@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.hamza.jucrmocktest'
+    namespace 'com.hamza.motionplay'
     compileSdk 32
 
     defaultConfig {

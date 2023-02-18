@@ -1,11 +1,11 @@
-package com.hamza.jucrmocktest
+package com.hamza.motionplay
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.hamza.jucrmocktest.databinding.ItemStatisticsBinding
-import com.hamza.jucrmocktest.models.Statistics
+import com.hamza.motionplay.databinding.ItemStatisticsBinding
+import com.hamza.motionplay.models.Statistics
 
 class StatisticsRecyclerAdapter(private val statisticsList: ArrayList<Statistics>) :
     RecyclerView.Adapter<StatisticsRecyclerAdapter.StatisticsViewHolder>() {

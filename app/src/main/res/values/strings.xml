@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">JucrMockTest</string>
-    <string name="teslacarimage">teslacarImage</string>
+    <string name="app_name">MotionPlay</string>
+    <string name="carimage">carImage</string>
 </resources>

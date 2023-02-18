@@ -1,4 +1,4 @@
-package com.hamza.jucrmocktest
+package com.hamza.motionplay
 
 import org.junit.Test
 

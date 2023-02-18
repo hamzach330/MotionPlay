@@ -1,10 +1,10 @@
-package com.hamza.jucrmocktest
+package com.hamza.motionplay
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.hamza.jucrmocktest.databinding.ItemSuperchargersBinding
-import com.hamza.jucrmocktest.models.SuperChargers
+import com.hamza.motionplay.databinding.ItemSuperchargersBinding
+import com.hamza.motionplay.models.SuperChargers
 
 class SuperChargersRecyclerAdapter(private val superChargersList: ArrayList<SuperChargers>) :
     RecyclerView.Adapter<SuperChargersRecyclerAdapter.SuperchargersViewHolder>() {

@@ -1,7 +1,7 @@
-package com.hamza.jucrmocktest
+package com.hamza.motionplay
 
-import com.hamza.jucrmocktest.models.Statistics
-import com.hamza.jucrmocktest.models.SuperChargers
+import com.hamza.motionplay.models.Statistics
+import com.hamza.motionplay.models.SuperChargers
 
 class DataSource {
 
